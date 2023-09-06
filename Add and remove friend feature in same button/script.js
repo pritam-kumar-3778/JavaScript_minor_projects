@@ -19,9 +19,3 @@ btn.addEventListener("click", function(){
         check = 0;
     }
 });
-
-// var removeFriend = document.querySelector("#remove");
-// removeFriend.addEventListener("click", function(){
-//     istatus.innerHTML = "You removed Ankita Nayak.";
-//     istatus.style.color = "red";
-// })
