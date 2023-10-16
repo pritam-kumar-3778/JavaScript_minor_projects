@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+
+/* outer div style */
+div{
+    height: auto;
+    width: auto;
+    background-color: slategray;
+    border: 1px solid black;
+}
+/* for create boxes */
+.btn{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin: 2rem;
+}
+
+/*for boxes are show in  one line */
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+/* give background color to all the boxes */
+.red{
+    background-color: #d95980;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+
+/* a flash class that is placed in js file for flash button */
+.flash{
+    background-color: #fff;
+}
+
+/* whwn user pressed the button this color is blink */
+.userflash{
+    background-color: crimson;
+}
+
+@media(max-width:200px){
+    div{
+        background-color: aqua;
+    }
+}
